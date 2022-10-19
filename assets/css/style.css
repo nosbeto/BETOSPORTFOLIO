@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:#000000;
+    font-family: 'Roboto', 'sans-serif', Calibri ;
+}
+
+:root {
+    --darkColor:#1b1b1a;
+    --lightFontColor:#fff;
+}
+
+/* Manages the background color of the body */
+body {
+    background-color: #4e4c4c;
+}
+
+/* Manages the styling of the header */
+.header {
+    font-size: 165%;
+    font-family: 'Roboto', 'Gill Sans MT', Calibri;
+    background-color: var(--darKColor);
+    padding: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 3px solid #333;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white-background-color {
+    background-color: whitesmoke;
+}
+
+.red-border {
+    border: 10px solid red;
+}
+
+.content h2 img{
+    flex: 0 0 10%;
+    flex-direction: column;
+}
+
+.content p {
+    flex: 0 0 80%
+} 
+
+.header h1 {
+    display: inline-flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--lightFontColor);
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    /* Sets display to inline */
+    display: inline;
+    list-style-type: none;
+  }
+
+/* manages the styling of all the little images */
+.aboutMe img, .work img, .resume img, .contactMe img {
+    display: block;
+    margin: 2%;
+    width: 5%;
+    min-width: 50px;
+    background-color: whitesmoke;
+    padding: 0.3%;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
