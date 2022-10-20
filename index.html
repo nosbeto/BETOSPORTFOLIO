@@ -17,19 +17,19 @@
             <ul>
                 <li>
                     <!-- Redirects the user to the About Me section-->
-                    <a href="#">About Me</a>
+                    <a href="#aboutMeHp">About Me</a>
                 </li>
                 <li>
                     <!-- Redirects the user to the Work section-->
-                    <a href="#">Work</a>
+                    <a href="#workHp">Work</a>
                 </li>
                 <li>
                     <!-- Redirects the user to the Resume section-->
-                    <a href="#">Resume</a>
+                    <a href="#resumeHp">Resume</a>
                 </li>
                 <li>
                     <!-- Redirects the user to the Contact Me section-->
-                    <a href="#">Contact Me</a>
+                    <a href="#contactMeHp">Contact Me</a>
                 </li>
             </ul>
     </div>
@@ -38,42 +38,55 @@
         <!-- Section that covers the About Me section -->
         <div class="profile-sections">
             <div class="red-border">
-            <h2>About Me</h2>
-            <img class="title-image" src="./assets/images/aboutMe.png" alt="#"/>
+                <h2 id="aboutMeHp">About Me</h2>
+                <img class="title-image" src="./assets/images/aboutMe.png" alt="#"/>
             </div>
-            <p>
-                Implementation Consultant at Featurespace. I bring seven years of industry experience managing integration projects for financial institutions. I hold a graduate certificate from UNCC’s Data Science and Business Analytics program. Aditionally, I'm working towards finishing a Coding Bootcamp to refine my skills in code development
-            </p>
+            <div class="paragraph-section">
+                Implementation Consultant at Featurespace. I bring seven years of industry experience managing integration projects for financial institutions. I hold a graduate certificate from UNCC’s Data Science and Business Analytics program. Aditionally, I'm working towards finishing a coding Bootcamp to refine my skills in code development
+            </div>
         </div>
+
         <div class="profile-sections">
             <div class="red-border">
-            <h2>Work</h2>
-            <img class="title-image" src="./assets/images/work.png" alt="#"/>
+                <h2 id="workHp">Work</h2>
+                <img class="title-image" src="./assets/images/work.png" alt="#"/>
             </div>
-            <p>
-                TBD
-            </p>
+            <div class="paragraph-section">
+                <button class="button-24" role="button" onclick="window.open('https://github.com/nosbeto');">
+                    <span class='icon'>Link to my Repo</span>
+                </button>
+                <button class="button-24" role="button">TBD 2</button>
+                <button class="button-24" role="button">TBD 3</button>
+                <button class="button-24" role="button">TBD 4</button>
+                <button class="button-24" role="button">TBD 5</button>
+            </div>
         </div>
+
         <div class="profile-sections">
             <div class="red-border">
-            <h2>Resume</h2>
-            <img class="title-image" src="./assets/images/resume.png" alt="#"/>
+                <h2 id="resumeHp">Resume</h2>
+                <img class="title-image" src="./assets/images/resume.png" alt="#"/>
             </div>
-            <p>
-                TALK TALK TALK
-            </p>
+            <div class="paragraph-section">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="dark" data-type="VERTICAL" data-vanity="dearmasalberto" data-version="v1">
+                    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/dearmasalberto?trk=profile-badge"></a>
+                </div>
+            </div>
         </div>
+
         <div class="profile-sections">
             <div class="red-border">
-            <h2>Contact Me</h2>
-            <img class="title-image" src="./assets/images/contactMe.png" alt="#"/>
+                <h2 id="contactMeHp">Contact Me</h2>
+                <img class="title-image" src="./assets/images/contactMe.png" alt="#"/>
             </div>
-            <p>
+            <div class="paragraph-section">
                 Full Name: Alberto De Armas <br>
                 email: ajdearmas13@gmail.com <br>
                 phone number: (980) 939 2587 <br>
-            </p>
+            </div>
         </div>
+
     </section>
+<!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> -->
 </body>
 </html>
