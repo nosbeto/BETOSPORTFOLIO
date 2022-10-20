@@ -81,6 +81,8 @@ li {
     /* Sets display to inline */
     display: inline;
     list-style-type: none;
+    padding-right: 6px;
+    padding-left: 6px;
   }
 
 /* manages the styling of all the little images */
