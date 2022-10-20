@@ -17,6 +17,7 @@ body {
     background-color: #4e4c4c;
 }
 
+
 /* Manages the styling of the header */
 .header {
     font-size: 165%;
@@ -35,15 +36,18 @@ body {
     display: flex;
     flex-direction: row;
     margin: 10px;
+    margin-bottom: 90px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+
 }
 
 /* It controls the styling of the paragraph section */
-.content p {
-    /* flex: 0 0 88%; */
+.content .paragraph-section {
     padding: 25px;
+    justify-content: space-between;
 } 
 
 .content h2 {
@@ -52,19 +56,11 @@ body {
     padding-bottom: 20px;
 }
 
-
 .red-border {
     border-right: 5px solid #ffbf00;
     padding-right: 40px;
+    max-width: 125px;
 }
-
-
-/* .content h2 img{
-    flex: 0 0 10%;
-    flex-direction: column;
-} */
-
-
 
 .header h1 {
     display: inline-flex;
@@ -81,6 +77,8 @@ li {
     /* Sets display to inline */
     display: inline;
     list-style-type: none;
+    padding-right: 6px;
+    padding-left: 6px;
   }
 
 /* manages the styling of all the little images */
@@ -93,4 +91,42 @@ li {
     padding: 5%;
     border-radius: 8px;
     border: 2px solid #333;
+}
+
+/* button */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  margin:4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
 }
