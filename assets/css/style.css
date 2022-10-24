@@ -136,12 +136,15 @@ li {
     .header h1 {
         font-size: 40px;
     }
+    ul {
+        text-align: center;
+    }
     .header li {
-        font-size: 20px;
+        font-size: 18px;
     }
     .content .paragraph-section {
         padding: 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .title-image {
         display: block;
